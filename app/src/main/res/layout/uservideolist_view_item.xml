@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.youtube.player.YouTubeThumbnailView
+        android:id="@+id/userv_thumbnail"
+        android:layout_width="130dp"
+        android:layout_height="85dp"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        android:background="@android:color/black"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:id="@+id/userv_lank"
+        android:textColor="#ff0000"
+        android:text="랭킹"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/userv_thumbnail"
+        android:layout_toRightOf="@+id/userv_thumbnail"
+        android:layout_toEndOf="@+id/userv_thumbnail" />
+
+    <TextView
+        android:id="@+id/userv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        android:text="유저이름"
+        android:layout_above="@+id/userv_disp"
+        android:layout_toRightOf="@+id/userv_thumbnail"
+        android:layout_toEndOf="@+id/userv_thumbnail"
+        android:layout_below="@+id/userv_lank" />
+
+    <TextView
+        android:id="@+id/userv_disp"
+        android:textColor="#F0D400"
+        android:text="영상 설명"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_alignBottom="@+id/userv_thumbnail"
+        android:layout_toRightOf="@+id/userv_thumbnail"
+        android:layout_toEndOf="@+id/userv_thumbnail" />
+
+</RelativeLayout>

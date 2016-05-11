@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent" >
+
+<FrameLayout
+    android:layout_margin="5dp"
+    android:name="com.google.android.youtube.player.YouTubePlayerSupportFragment"
+    android:id="@+id/youtube_layout"
+    android:layout_width="150dp"
+    android:layout_height="80dp"
+    android:visibility="visible"
+    android:background="@color/color_m_06"
+    />
+
+</RelativeLayout>

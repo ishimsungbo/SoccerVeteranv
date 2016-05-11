@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.soccerveteranv">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name=".sns.GlobalApplication"
+        >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+
+
+        </activity>
+
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SplashActivity" android:screenOrientation="portrait"/>
+
+        <activity android:name=".MiddleActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".NomalActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".FreeActivity" android:screenOrientation="portrait"/>
+
+        <activity android:name=".LoginActivity" android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="@string/kakao_app_key" />
+        <activity android:name=".ContentActivity"/>
+
+        <!--유저동영상 및 커뮤니티 관련-->
+        <activity android:name=".ActivityUserUpload"/>
+        <activity android:name=".ActivityUser" />
+
+        <!--테스트관련-->
+        <activity android:name=".test.ActivityTest"/>
+    </application>
+
+</manifest>

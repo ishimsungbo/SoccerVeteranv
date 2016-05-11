@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorPurple">#9C27B0</color>
+
+
+    <!-- NEW DISIGN -->
+    <color name="color1">#404040</color>
+    <color name="color2">#B2B2B2</color>
+    <color name="color3">#2A2A2A</color>
+    <color name="color4">#E5E5E5</color>
+    <color name="color5">#F6F6F6</color>
+    <color name="color6">#FFFFFF</color>
+    <color name="color7">#000000</color>
+    <color name="color8">#4A4A4C</color>
+    <color name="color9">#BDD1DC</color>
+
+
+    <color name="color_m_01">#9E9E9E</color>
+    <color name="color_m_02">#F5F5F5</color>
+    <color name="color_m_03">#E0E0E0</color>
+    <color name="color_m_04">#BDBDBD</color>
+    <color name="color_m_05">#9E9E9E</color>
+    <color name="color_m_06">#757575</color>
+    <color name="color_m_07">#616161</color>
+    <color name="color_m_08">#424242</color>
+    <color name="color_m_09">#212121</color>
+
+    <!--theme style-->
+    <color name="background_window">#FFE5E5E5</color>
+    <color name="green">#FF99CC33</color>
+    <color name="greenDark">#3E5F22</color>
+    <color name="banana">#FFCC00</color>
+
+
+    <!--socceerveteran-->
+    <color name="tabbottomline">#FF99CC33</color>
+
+</resources>
